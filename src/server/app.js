@@ -4,7 +4,7 @@ var albumsRouter = require('./router/albums')
 
 
 const app = express()
-const port = 3000
+const port = 80
 
 app.use('/albums', albumsRouter)
 
@@ -13,5 +13,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Listening at http://localhost:${port}`)
 })

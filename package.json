@@ -1,0 +1,25 @@
+{
+  "name": "lamestack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimuhire/lamestack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimuhire/lamestack/issues"
+  },
+  "homepage": "https://github.com/Aimuhire/lamestack#readme"
+}
