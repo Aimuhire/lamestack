@@ -1,8 +1,5 @@
 const express = require('express');
 var albumsRouter = require('./router/albums');
-
-
-
 const app = express();
 const port = process.env.PORT || 80;
 

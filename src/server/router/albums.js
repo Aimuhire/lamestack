@@ -6,6 +6,7 @@ albumsRouter.get('/:albumID/photos', function (req, res) {
     const albumID = req.params.albumID;
     if (!albumID) return res.send([])
     APIClient.getAlbumPhotos(albumID).then((response) => {
+        res.header("Access-Control-Allow-Headers", "https://lamealbum.aimuhire.com")
         res.send(response)
     })
 })
